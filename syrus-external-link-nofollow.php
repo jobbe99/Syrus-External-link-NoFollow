@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Syrus NoFollow
-Plugin URI: http://www.syrusindustry.com
+Plugin Name: Syrus External Link NoFollow
+Plugin URI: https://wordpress.org/plugins/syrus-external-link-nofollow/
 Description: Una volta attivato il plugin, a tutti i link esterni verranno aggiunti gli attributi <code>rel=&quot;nofollow&quot;</code> e <code>target=&quot;_blank&quot;</code>
 Version: 1.0.0
-Author: SyrusIndustry
+Author: Syrus Industry
 Author URI: http://www.syrusindustry.com
 License: GPL2
 */
@@ -36,7 +36,7 @@ function register_syrus_nofollow_settings() {
 add_action( 'admin_init', 'register_syrus_nofollow_settings' );
 
 function syrus_nofollow_plugin_menu() {
-	add_options_page('Syrus No Follow', 'Syrus No Follow', 'manage_options', 'syrus_nofollow', 'syrus_nofollow_function');
+	add_options_page('Syrus External Link NoFollow', 'Syrus External Link NoFollow', 'manage_options', 'syrus_nofollow', 'syrus_nofollow_function');
 }
 
 add_action( 'admin_menu', 'syrus_nofollow_plugin_menu');
@@ -48,7 +48,7 @@ function syrus_nofollow_function(){
   // echo "applica = $applica - domini_esclusi = $domini_esclusi<br>";
   ?>
   <div class="row">
-    <h1 style="text-align:center">Syrus No Follow</h1>
+    <h1 style="text-align:center">Syrus External Link NoFollow</h1>
     <hr>
   </div>
   <div class="row">
