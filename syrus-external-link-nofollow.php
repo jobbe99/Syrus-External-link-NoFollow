@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Syrus External Link NoFollow
-Plugin URI: http://www.syrusindustry.com
+Plugin URI: https://wordpress.org/plugins/syrus-external-link-nofollow/
 Description: Una volta attivato il plugin, a tutti i link esterni verranno aggiunti gli attributi <code>rel=&quot;nofollow&quot;</code> e <code>target=&quot;_blank&quot;</code>
 Version: 1.0.0
 Author: SyrusIndustry
